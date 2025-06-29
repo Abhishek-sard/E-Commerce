@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="/" className="text-xl font-bold text-indigo-600">
-              ShopEase
+              Ruslan Shop
             </a>
           </div>
 

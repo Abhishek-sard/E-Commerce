@@ -14,7 +14,7 @@ function Body() {
       </div>
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 h-full flex items-center">
         <div className="text-center w-full">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-4xl lg:text-6xl">
             HANDMADE HEAVENLY COOKIE BOXES
           </h1>
           {/* <p>SAN FRANCISCO SINCE 2035</p> */}
