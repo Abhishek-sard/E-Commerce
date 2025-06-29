@@ -1,19 +1,38 @@
 import React from "react";
-import Chicken1 from  '../assets/chicken1.jpg';
+import Chicken1 from '../assets/chicken1.jpg';
+import Combos from '../assets/combos.jpg';
+import Egg from '../assets/Eggs.jpg'
+import FishandSeaFood from '../assets/Fishandseafood.jpg';
+import HeatandEat from '../assets/heatandEat.jpg';
+import Kidsfavourites from '../assets/kidsfavourites.jpg';
+import Licious from '../assets/LiciousSpecials.jpg';
+import Liver from '../assets/LiverandMOre.jpg';
+import Mutton from '../assets/mutton.jpg';
+import Pork from '../assets/pork.jpg';
+import PrawansCrab from '../assets/prawansCrab.jpg';
+import Ready from '../assets/Readytoeat.jpg';
+import Soup from '../assets/soup.jpg';
+import Chicken from '../assets/chicken.jpg'
+import Soup1 from '../assets/soup1.jpg';
 
 const Products = () => {
   
   const images = [
-    { id: 1, src:  Chicken1 , alt: "Image 1", text: "Chicken" },
-    { id: 2, src: {  }, alt: "Image 2", text: "Product 2" },
-    { id: 3, src: { }, alt: "Image 3", text: "Product 3" },
-    { id: 4, src: { }, alt: "Image 4", text: "Product 4" },
-    { id: 5, src: { }, alt: "Image 5", text: "Product 5" },
-    { id: 6, src: { }, alt: "Image 6", text: "Product 6" },
-    { id: 7, src: { }, alt: "Image 7", text: "Product 7" },
-    { id: 8, src: { }, alt: "Image 8", text: "Product 8" },
-    { id: 9, src: { }, alt: "Image 9", text: "Product 9" },
-    { id: 10, src:{ }, alt: "Image 10", text: "Product 10" },
+    { id: 1, src: Chicken1, alt: "Fresh Chicken", text: "Fresh Chicken" },
+    { id: 2, src: Combos, alt: "Meal Combos", text: "Meal Combos" },
+    { id: 3, src: Egg, alt: "Egg Products", text: "Egg Products" },
+    { id: 4, src: FishandSeaFood, alt: "Fish & Seafood", text: "Fish & Seafood" },
+    { id: 6, src: HeatandEat, alt: "Heat & Eat", text: "Heat & Eat" },
+    { id: 7, src: Kidsfavourites, alt: "Kids Favorites", text: "Kids Favorites" },
+    { id: 8, src: Licious, alt: "Licious Specials", text: "Licious Specials" },
+    { id: 9, src: Liver, alt: "Liver & More", text: "Liver & More" },
+    { id: 10, src: Mutton, alt: "Mutton", text: "Mutton" },
+    { id: 11, src: Pork, alt: "Pork", text: "Pork" },
+    { id: 12, src: PrawansCrab, alt: "Prawns & Crab", text: "Prawns & Crab" },
+    { id: 13, src: Ready, alt: "Ready to Eat", text: "Ready to Eat" },
+    { id: 14, src: Soup, alt: "Soup", text: "Soup" },
+    { id: 15, src: Chicken, alt: "Chicken Varieties", text: "Chicken Varieties" },
+    { id: 16, src: Soup1, alt: "Soup Varieties", text: "Soup Varieties" },
   ];
 
   return (
