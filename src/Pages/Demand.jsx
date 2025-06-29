@@ -1,4 +1,7 @@
-import React from 'react'
+import React from "react";
+import Soup1 from "../assets/soup1.jpg";
+import Chicken from "../assets/chicken.jpg";
+import Pork from "../assets/pork.jpg";
 
 const Demand = () => {
   return (
@@ -11,37 +14,49 @@ const Demand = () => {
       {/* Cards Container */}
       <div className="flex flex-wrap justify-center gap-6">
         {/* Card 1 */}
-        <div className="bg-white rounded-lg shadow-lg p-4 w-72 h-90">
-          <img src="https://via.placeholder.com/150" alt="product" className="w-full rounded" />
+        <div className="bg-white rounded-lg shadow-lg p-4 w-72 ">
+          <img src={Pork} alt="product" className="w-full rounded" />
           <div className="p-2">
-            <h2 className="text-xl font-bold">Product Name</h2>
-            <p className="text-gray-500">Product Description</p>
-            <p className="text-gray-700 font-semibold">Price: $100</p>
+            <h2 className="text-xl font-bold">Chicken Soup</h2>
+            <p className="text-gray-500">
+              t’s a hearty Italian classic that eats like a full meal. It’s
+              goodness a bowl, perfect for chilly nights.
+            </p>
+            <p className="text-gray-700 font-semibold">Price: Rs. 100</p>
           </div>
         </div>
 
         {/* Card 2 */}
         <div className="bg-white rounded-lg shadow-lg p-4 w-72">
-          <img src="https://via.placeholder.com/150" alt="product" className="w-full rounded" />
+          <img src={Chicken} alt="product" className="w-full rounded" />
           <div className="p-2">
-            <h2 className="text-xl font-bold">Product Name</h2>
-            <p className="text-gray-500">Product Description</p>
-            <p className="text-gray-700 font-semibold">Price: $100</p>
+            <h2 className="text-xl font-bold">Chicken</h2>
+            <p className="text-gray-500">
+              Baked, fried, grilled, stewed or in soups or pasta – however you
+              like your chicken lunches and dinners, you know they're going to
+              be easy...{" "}
+            </p>
+            <p className="text-gray-700 font-semibold">Price: Rs. 500</p>
           </div>
         </div>
 
         {/* Card 3 */}
         <div className="bg-white rounded-lg shadow-lg p-4 w-72">
-          <img src="https://via.placeholder.com/150" alt="product" className="w-full rounded" />
+          <img src={Pork} alt="product" className="w-full rounded" />
           <div className="p-2">
-            <h2 className="text-xl font-bold">Product Name</h2>
-            <p className="text-gray-500">Product Description</p>
-            <p className="text-gray-700 font-semibold">Price: $100</p>
+            <h2 className="text-xl font-bold">Pork</h2>
+            <p className="text-gray-500">
+              {" "}
+              This timeless stuffed pork loin recipe offers ingredient
+              flexibility with seasonal suggestions for herbs, meat, and
+              vegetables.
+            </p>
+            <p className="text-gray-700 font-semibold">Price: Rs. 300</p>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Demand;
